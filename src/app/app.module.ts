@@ -8,6 +8,7 @@ import { TutorialsListComponent } from './components/tutorials-list/tutorials-li
 import {FormsModule} from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import {AppRoutingModule} from './app-routing.module';
+import {AngularEditorModule} from '@kolkov/angular-editor';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import {AppRoutingModule} from './app-routing.module';
     BrowserModule,
     FormsModule,
     HttpClientModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AngularEditorModule
   ],
   providers: [],
   bootstrap: [AppComponent]
